@@ -59,13 +59,17 @@ dan disimpan di dalam container (ApplicationContext).
 # Mengakses Bean
 Kita bisa menggunakan getBean milik ApplicationContext. Karena sebuah object akan dimanage oleh ApplicationContext.
 
-# Duplicate Bean
+## Duplicate Bean
 Kita bisa mendaftarkan beberapa bean dengan tipe data yang sama. Syaratnya nama beannya harus beda.
 Dan ketika mengakses beannya, kita harus menyebutkan nama beannya.
 
-## Primary Bean
+### Primary Bean
 Jika ada duplicate, maka primary akan dijasikan default beannya.
 
-# Mengubah Nama Bean
+### Mengubah Nama Bean
 Secara default nama bean itu sama dengan nama Methodnya.
 Kita bisa menggunakan methid value() milik annotaion @Bean
+
+# Dependency Injection
+Sebuah teknik mengotomatiasasi proses pembuatan object yang tergantung dengan object lain. Dependencies akan secara
+otomatis diinject (dimasukan) ke dalam object yang membutuhkannya.
