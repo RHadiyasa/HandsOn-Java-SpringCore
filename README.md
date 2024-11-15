@@ -73,3 +73,18 @@ Kita bisa menggunakan methid value() milik annotaion @Bean
 # Dependency Injection
 Sebuah teknik mengotomatiasasi proses pembuatan object yang tergantung dengan object lain. Dependencies akan secara
 otomatis diinject (dimasukan) ke dalam object yang membutuhkannya.
+
+### Bean Factory
+ApplicationContext adalah interface dari turunan beanFactory. Listable bean factory adalah turunan dari bean factory,
+untuk mengakses beberapa bean sekaligus.
+
+
+
+
+
+
+
+
+
+
+
